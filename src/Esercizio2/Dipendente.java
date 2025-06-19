@@ -30,3 +30,4 @@ public abstract class Dipendente {
     // 👇 Metodo astratto da implementare nelle sottoclassi
     public abstract double calculateSalary();
 }
+ ()
