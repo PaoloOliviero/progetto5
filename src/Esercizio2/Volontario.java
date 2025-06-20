@@ -19,3 +19,4 @@ public class Volontario implements Interfaccia {
     public void checkIn() {
         System.out.println("Volontario " + nome + " ha iniziato il suo servizio.");
     }
+}

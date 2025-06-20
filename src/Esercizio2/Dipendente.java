@@ -28,4 +28,3 @@ public abstract class Dipendente implements Interfaccia {
     }
 
     public abstract double calculateSalary();
-}

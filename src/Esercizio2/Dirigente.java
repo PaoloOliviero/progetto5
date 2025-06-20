@@ -17,4 +17,3 @@ public class Dirigente extends Dipendente {
     public void checkIn() {
         System.out.println(" Dirigente " + getMatricola() + " ha iniziato il turno.");
     }
-}

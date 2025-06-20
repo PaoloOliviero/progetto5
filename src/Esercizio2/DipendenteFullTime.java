@@ -15,4 +15,3 @@ public class DipendenteFullTime extends Dipendente {
     public void checkIn() {
         System.out.println(" Dipendente full-time " + getMatricola() + " ha iniziato il turno.");
     }
-}

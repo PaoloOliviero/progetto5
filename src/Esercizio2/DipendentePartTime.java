@@ -19,4 +19,3 @@ public class DipendentePartTime extends Dipendente {
     public void checkIn() {
         System.out.println("Dipendente part-time " + getMatricola() + " ha iniziato il turno.");
     }
-}

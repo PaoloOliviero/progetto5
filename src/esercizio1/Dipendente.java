@@ -26,4 +26,4 @@ public class Dipendente {
     public void setDipartimento(String nuovoDipartimento) {
         this.dipartimento = nuovoDipartimento;
     }
-}
+
