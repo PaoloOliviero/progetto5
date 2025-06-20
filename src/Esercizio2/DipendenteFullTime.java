@@ -10,4 +10,9 @@ public class DipendenteFullTime extends Dipendente {
     public double calculateSalary() {
         return getStipendioBase() * 12;
     }
+
+    @Override
+    public void checkIn() {
+        System.out.println("👷 Dipendente full-time " + getMatricola() + " ha iniziato il turno.");
+    }
 }

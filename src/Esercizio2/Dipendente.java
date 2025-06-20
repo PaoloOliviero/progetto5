@@ -1,6 +1,6 @@
 package Esercizio2;
 
-public abstract class Dipendente {
+public abstract class Dipendente implements Interfaccia {
     private String matricola;
     private double stipendioBase;
     private String dipartimento;
@@ -27,7 +27,5 @@ public abstract class Dipendente {
         this.dipartimento = nuovoDipartimento;
     }
 
-    // 👇 Metodo astratto da implementare nelle sottoclassi
     public abstract double calculateSalary();
 }
- ()

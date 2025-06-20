@@ -1,15 +1,20 @@
 package Esercizio2;
 
 public class Dirigente extends Dipendente {
-    private double indennita;
+    private double indennitaMensile;
 
-    public Dirigente(String matricola, double stipendioBase, String dipartimento, double indennita) {
+    public Dirigente(String matricola, double stipendioBase, String dipartimento, double indennitaMensile) {
         super(matricola, stipendioBase, dipartimento);
-        this.indennita = indennita;
+        this.indennitaMensile = indennitaMensile;
     }
 
     @Override
     public double calculateSalary() {
-        return (getStipendioBase() + indennita) * 12;
+        return (getStipendioBase() + indennitaMensile) * 12;
+    }
+
+    @Override
+    public void checkIn() {
+        System.out.println("🧑‍💼 Dirigente " + getMatricola() + " ha iniziato il turno.");
     }
 }
