@@ -17,6 +17,6 @@ public class DipendentePartTime extends Dipendente {
 
     @Override
     public void checkIn() {
-        System.out.println("⏱️ Dipendente part-time " + getMatricola() + " ha iniziato il turno.");
+        System.out.println("Dipendente part-time " + getMatricola() + " ha iniziato il turno.");
     }
 }

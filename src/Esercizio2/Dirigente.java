@@ -15,6 +15,6 @@ public class Dirigente extends Dipendente {
 
     @Override
     public void checkIn() {
-        System.out.println("🧑‍💼 Dirigente " + getMatricola() + " ha iniziato il turno.");
+        System.out.println(" Dirigente " + getMatricola() + " ha iniziato il turno.");
     }
 }

@@ -17,16 +17,14 @@ public class Main {
         presenze[4] = new Volontario("Luca", 24, "Studente Stage");
         presenze[5] = new Volontario("Sofia", 21, "Volontaria Africa");
 
-        System.out.println("📋 Check-in di oggi:\n");
+        for (int i = 0; i < dipendenti.length; i++) {
+            Dipendente d = dipendenti[i];
+            System.out.println("Stipendio annuale di " + d.getMatricola() + ": " + d.calculateSalary() + " euro");
+        }
+
+        System.out.println("Check-in di oggi:\n");
         for (Interfaccia persona : presenze) {
             persona.checkIn();
-
-            for (int i = 0; i < dipendenti.length; i++) {
-                Dipendente d = dipendenti[i];
-                System.out.println("Stipendio annuale di " + d.getMatricola() + ": " + d.calculateSalary() + " euro");
-            }
-
-
         }
     }
 }
