@@ -6,7 +6,7 @@ public class Main {
         Dipendente d2 = new Dipendente("B456", 2200.00, "AMMINISTRAZIONE");
         Dipendente d3 = new Dipendente("C789", 1950.75, "VENDITE");
 
-        Dipendente[] dipendenti = { d1, d2, d3 };
+        Dipendente[] dipendenti = {d1, d2, d3};
 
         System.out.println("📋 Elenco iniziale dipendenti:");
         for (Dipendente d : dipendenti) {
@@ -20,6 +20,7 @@ public class Main {
             System.out.println("Matricola: " + d.getMatricola() + ", Dipartimento: " + d.getDipartimento());
         }
     }
+}
 
 
 

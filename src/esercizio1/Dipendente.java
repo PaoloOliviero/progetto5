@@ -27,3 +27,4 @@ public class Dipendente {
         this.dipartimento = nuovoDipartimento;
     }
 
+}

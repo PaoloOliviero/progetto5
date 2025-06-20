@@ -13,5 +13,6 @@ public class DipendenteFullTime extends Dipendente {
 
     @Override
     public void checkIn() {
-        System.out.println(" Dipendente full-time " + getMatricola() + " ha iniziato il turno.");
+        System.out.println(" Dipendente full-time " + getMatricola() + " ha timbrato alle 10.");
     }
+}

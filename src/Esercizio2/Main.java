@@ -22,9 +22,10 @@ public class Main {
             System.out.println("Stipendio annuale di " + d.getMatricola() + ": " + d.calculateSalary() + " euro");
         }
 
-        System.out.println("Check-in di oggi:\n");
-        for (Interfaccia persona : presenze) {
+        System.out.println("Check-in di oggi:");
+        for (int i = 0; i < presenze.length; i++) {
+            Interfaccia persona = presenze[i];
             persona.checkIn();
         }
     }
-
+}

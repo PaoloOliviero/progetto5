@@ -17,6 +17,6 @@ public class Volontario implements Interfaccia {
 
     @Override
     public void checkIn() {
-        System.out.println("Volontario " + nome + " ha iniziato il suo servizio.");
+        System.out.println("Volontario " + nome + " ha timbrato alle 12.");
     }
 }

@@ -5,7 +5,7 @@ public class DipendentePartTime extends Dipendente {
     private double pagaOraria;
 
     public DipendentePartTime(String matricola, String dipartimento, int oreSettimanali, double pagaOraria) {
-        super(matricola, 0, dipartimento); // stipendioBase non usato per part-time
+        super(matricola, 0, dipartimento);
         this.oreSettimanali = oreSettimanali;
         this.pagaOraria = pagaOraria;
     }
@@ -17,5 +17,6 @@ public class DipendentePartTime extends Dipendente {
 
     @Override
     public void checkIn() {
-        System.out.println("Dipendente part-time " + getMatricola() + " ha iniziato il turno.");
+        System.out.println("Dipendente part-time " + getMatricola() + " ha timbrato alle 10.");
     }
+}
